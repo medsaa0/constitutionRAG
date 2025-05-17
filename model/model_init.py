@@ -50,7 +50,7 @@ Context:
 
 Question: {question}
 
-Answer based only on the context above. If the information is missing, reply with "I don't know based on the given articles."
+Answer based only on the context above. If the information is missing, reply with "I can only answer questions related to the Moroccan Constitution and I couldn't find this information in the available articles."
 """
     response = client.chat.completions.create(
         model="llama3-70b-8192",
